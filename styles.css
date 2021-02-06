@@ -1,0 +1,83 @@
+body {
+ 	background-color: violet;
+}
+
+h1 {
+  	color: white;
+  	text-align: center;
+  	font-family: Brush Script MT;
+  	font-weight: 900;
+}
+h2 {
+	font-family: Copperplate;
+  	font-size: 30px;
+  	color: gray;
+  	text-align: center;
+}
+img {
+ 	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+p {
+  	font-family: verdana;
+  	font-size: 20px;
+  	color: gray;
+  	text-align: justify;
+}
+table{
+  	margin-left: auto;
+  	margin-right: auto;
+}
+th {
+	font-family: verdana;
+  	font-size: 30px;
+  	color: gray;
+  	text-align: center;
+}
+td {
+	font-family: verdana;
+  	font-size: 20px;
+  	color: gray;
+  	text-align: justify;
+}
+.navbar {
+  	width: 100%;
+ 	background-color: #555;
+  	overflow: auto;
+}
+
+.navbar a {
+  	float: left;
+  	color: white;
+  	text-decoration: none;
+  	font-size: 17px;
+  	width: 25%;
+  	text-align: center;
+}
+
+.navbar a:hover {
+  	background-color: #000;
+}
+
+.navbar a.active {
+  	background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 25%;
+    text-align: left;
+  }
+}
+ul {
+list-style: none;
+}
+li {
+	font-family: verdana;
+  	font-size: 20px;
+  	color: gray;
+  	text-align: justify;
+}
